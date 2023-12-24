@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://dnxxyva3x0oi5"]
+
+[ext_resource type="Script" path="res://Scenes/world.gd" id="1_xw3jc"]
+
+[sub_resource type="Environment" id="Environment_rnsb5"]
+background_mode = 1
+background_color = Color(0.141176, 0.141176, 0.141176, 1)
+background_energy_multiplier = 0.85
+
+[node name="World" type="Node"]
+script = ExtResource("1_xw3jc")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_rnsb5")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.990472, -0.0708767, -0.118078, 0.0297926, -0.94737, 0.318753, -0.134456, 0.312198, 0.940454, -1.98142, 14.6496, -0.847805)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.629903, 0.776674, 0, -0.776674, 0.629903, 4.88325, 10.8419, 4.48131)
+fov = 72.9471
+
+[node name="Bullets" type="Node3D" parent="."]
+
+[node name="Keyboard" type="Node3D" parent="."]

@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://cyxu5hr3oht71"]
+
+[ext_resource type="Script" path="res://Scenes/key.gd" id="1_0refk"]
+[ext_resource type="ArrayMesh" uid="uid://dabiu880qia6" path="res://Assets/Sketchfab_Scene_Object_0.res" id="1_4pt58"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2kutd"]
+albedo_color = Color(0.247059, 1, 1, 1)
+
+[sub_resource type="QuadMesh" id="QuadMesh_xq8n8"]
+
+[node name="Key" type="Node3D"]
+script = ExtResource("1_0refk")
+
+[node name="KeyCapMesh" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.07, 0, 0, 0, -3.0598e-09, 0.07, 0, -0.07, -3.0598e-09, -0.641, 0, 0.639947)
+mesh = ExtResource("1_4pt58")
+
+[node name="Marker3D" type="Marker3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0012517, 0.778799, -0.0271067)
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0.501, 0)
+visible = false
+material_override = SubResource("StandardMaterial3D_2kutd")
+mesh = SubResource("QuadMesh_xq8n8")
+
+[node name="LetterLabel" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0.247364, 0.554514, -0.244143)
+modulate = Color(0, 0, 0, 1)
+text = "A"
+font_size = 64
+outline_size = 5
