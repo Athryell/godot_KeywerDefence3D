@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://23dp5vdos7yh"]
+
+[ext_resource type="PackedScene" uid="uid://dararpu4ix7ix" path="res://2D stuff/Resources/mock_key.tscn" id="1_if8jg"]
+
+[node name="TestScene" type="Node2D"]
+position = Vector2(183, 87)
+
+[node name="MockKey" parent="." instance=ExtResource("1_if8jg")]
+letter = "I"
+
+[node name="MockKey2" parent="." instance=ExtResource("1_if8jg")]
+letter = "L"
