@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://c4mqlstauxn4x"]
 
-[ext_resource type="Script" path="res://Scenes/UI/draggable_letter.gd" id="1_3lswm"]
+[ext_resource type="Script" uid="uid://c5x07fms5aif5" path="res://Scenes/UI/draggable_letter.gd" id="1_3lswm"]
 
 [node name="Letter" type="Label"]
 anchors_preset = 15

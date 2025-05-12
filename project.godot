@@ -11,8 +11,9 @@ config_version=5
 [application]
 
 config/name="Keywer Defence 3D"
+config/tags=PackedStringArray("3d")
 run/main_scene="res://Scenes/world.tscn"
-config/features=PackedStringArray("4.1", "Mobile")
+config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 
 [autoload]

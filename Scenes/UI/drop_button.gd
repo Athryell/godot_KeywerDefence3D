@@ -8,4 +8,3 @@ func _on_button_down():
 		$BtnLabel.text = UiInteractionManager.current_letter_held.text
 		$BtnLabel.rotation = UiInteractionManager.current_letter_held.rotation
 		emit_signal("letter_dropped", name)
-

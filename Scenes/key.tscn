@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://cyxu5hr3oht71"]
 
-[ext_resource type="Script" path="res://Scenes/key.gd" id="1_0refk"]
+[ext_resource type="Script" uid="uid://b0ncie702amnx" path="res://Scenes/key.gd" id="1_0refk"]
 [ext_resource type="ArrayMesh" uid="uid://dabiu880qia6" path="res://Assets/Sketchfab_Scene_Object_0.res" id="1_4pt58"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2kutd"]

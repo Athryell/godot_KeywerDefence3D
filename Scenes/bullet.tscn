@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://b8ny8v7u4yyld"]
 
-[ext_resource type="Script" path="res://Scenes/Bullet.gd" id="1_5ldbg"]
+[ext_resource type="Script" uid="uid://cbg7knejyub3i" path="res://Scenes/Bullet.gd" id="1_5ldbg"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1em3l"]
 radius = 0.511298

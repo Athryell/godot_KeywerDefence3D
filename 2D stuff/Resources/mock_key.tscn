@@ -1,6 +1,7 @@
 [gd_scene load_steps=2 format=3 uid="uid://dararpu4ix7ix"]
 
-[ext_resource type="Script" path="res://AbstractWeapon.gd" id="1_gs4lb"]
+[sub_resource type="Resource" id="Resource_r5mlx"]
+metadata/__load_path__ = "res://AbstractWeapon.gd"
 
 [node name="MockKey" type="Node2D"]
-script = ExtResource("1_gs4lb")
+script = SubResource("Resource_r5mlx")

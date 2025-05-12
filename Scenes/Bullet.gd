@@ -11,4 +11,3 @@ func _ready():
 
 func _process(delta):
 	translate(Vector3(0, 0, -1 * speed * delta))
-
